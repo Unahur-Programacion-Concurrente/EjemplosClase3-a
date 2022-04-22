@@ -8,6 +8,7 @@ def ejecutarHilo(i):
     time.sleep(retardo)
     print("\nHilo {} finalizado".format(i))
 
+
 for i in range(10):
     hilo = threading.Thread(target=ejecutarHilo, args=(i,))
     hilo.start()
