@@ -24,21 +24,27 @@ Ejemplo que muestra como lanzar ***daemon*** threads
 ````
 cuentaThread.py
 ````
-Ejemplo que muestra como obtener la cuenta de threads activas con el método ***active_count***
+Ejemplo que muestra como obtener la cuenta de threads activas con el método ***active_count()***
 
 ## Ejemplo 5
 ````
 enumThread.py
 ````
-Ejemplo que muestra como enumerar threads con el método ***enumerate***
+Ejemplo que muestra como enumerar threads con el método ***enumerate()***
 
 ## Ejemplo 6
 ````
 currentThread.py
 ````
-Ejemplo que muestra como obtener la cuenta la thread que se está ejecutando con el método ***current_thread*** y la thread principal (main thread) con el método ***main_thread***. Este ejemplo, también muestra como iniciar una lista vacia y luego cargarla con objetos thread para poder utilizarlos en iteraciones.
+Ejemplo que muestra como obtener la cuenta la thread que se está ejecutando con el método ***current_thread()*** y la thread principal (main thread) con el método ***main_thread***. Este ejemplo, también muestra como iniciar una lista vacia y luego cargarla con objetos thread para poder utilizarlos en iteraciones.
 
 ## Ejemplo 7
+````
+isaliveThread.py
+````
+Ejemplo que muestra como averiguar si una thread está activa ejecutando el método ***is_alive()*** .
+
+## Ejemplo 8
 ````
 contadorConcurrente.py
 ````
