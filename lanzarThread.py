@@ -13,4 +13,6 @@ for i in range(10):
     hilo = threading.Thread(target=ejecutarHilo, args=(i,))
     hilo.start()
 
+print("\nHola desde el Hilo principal")
+
 

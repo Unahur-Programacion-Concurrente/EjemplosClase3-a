@@ -15,6 +15,6 @@ miTarea.start()
 print("Arrancando miTarea")
 
 miTarea.join()
-print("termino miTarea")
+print("Terminó miTarea")
 
 

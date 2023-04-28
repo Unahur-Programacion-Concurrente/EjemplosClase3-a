@@ -13,14 +13,14 @@ def cuenta():
         counter += 1
 
 
-threads = []
+threadsLista = []
 
 for i in range(THREADS):
     t = threading.Thread(target=cuenta)
-    threads.append(t)
+    threadsLista.append(t)
     t.start()
 
-for t in threads:
+for t in threadsLista:
     t.join()
 
 print(f"Valor del contador: {counter}")
