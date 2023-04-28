@@ -19,7 +19,6 @@ hiloDmn = threading.Thread(target=hiloDemonio, daemon=True)
 hiloDmn.start()
 hiloStd.start()
 
-
 print("Hilo principal Termino")
 
 
