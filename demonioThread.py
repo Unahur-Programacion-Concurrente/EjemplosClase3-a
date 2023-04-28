@@ -8,13 +8,13 @@ def hiloStandard():
 
 def hiloDemonio():
     while True:
-        print("Haciendo algo en backgrond")
+        print("Haciendo algo en background")
         time.sleep(2)
 
 hiloStd = threading.Thread(target=hiloStandard)
 
-hiloDmn = threading.Thread(target=hiloDemonio)
-hiloDmn.setDaemon(True)
+hiloDmn = threading.Thread(target=hiloDemonio, daemon=True)
+# hiloDmn.setDaemon(False)
 
 hiloDmn.start()
 hiloStd.start()
