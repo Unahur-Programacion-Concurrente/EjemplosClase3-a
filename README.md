@@ -1,6 +1,6 @@
-# Ejemplos Clase 2
+# Ejemplos Clase 3
 
-Código fuente visto durante la Clase 2
+Código fuente visto durante la Clase 3
 
 ## Ejemplo 1
 ````
