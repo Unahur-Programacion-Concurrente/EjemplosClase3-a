@@ -9,14 +9,6 @@ class miHilo(threading.Thread):
         self.name = name
         self.setName(name)
 
-#   Ejemplo que mezcla strings
-#   def run(self):
-#       print("Arranco: " + self.getName()+"\n")
-#       time.sleep(random.randint(1,5))
-#       print("Terminó: " + self.getName(), end=" - ")
-#       print("Cantidad de Hilos ="+str(threading.active_count()), end="\n")
-
-#para que no se desordenen los strings:
     def run(self):
         print("Arranco: " + self.getName()+"\n")
         time.sleep(random.randint(1,5))
